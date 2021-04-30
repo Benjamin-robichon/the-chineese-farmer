@@ -1,0 +1,152 @@
+html {
+    font-family: "Crete Round", serif;
+    letter-spacing: 0.05em;
+    font-size: 1.2em;
+    color: rgb(31, 28, 28);
+}
+
+a {
+    color: rgb(189, 52, 52);
+    text-transform: uppercase;
+}
+
+a:visited {
+    background-color: seagreen;
+}
+
+a:hover {
+    background-color: rgb(31, 28, 28);
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #f3ecae;
+    background-image: url("https://static.vecteezy.com/ti/vecteur-libre/p1/2034636-jour-dans-vaste-desert-americain-occidental-avec-horizon-de-cactus-paysage-illustration-vectoriel.jpg");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+    background-size: cover;
+}
+
+blockquote {
+    font-style: italic;
+    background-color: slategray;
+    border-left: 3px solid #ccc;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 300px;
+    margin: auto;
+    font-size: 160%;
+}
+
+q {
+    font-style: italic;
+    background-color: slategray;
+    border-left: 3px solid rgb(228, 82, 82);
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: auto;
+    width: 200px;
+    display: block;
+    font-size: 160%;
+}
+
+.neighbors {
+    font-style: italic;
+    background-color: slategray;
+    border-left: 3px solid rgb(228, 82, 82);
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: auto;
+    width: 200px;
+    display: block;
+    font-size: 160%;
+}
+
+.farmer {
+    font-style: italic;
+    background-color: slategray;
+    border-left: 3px solid rgb(23, 73, 139);
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: auto;
+    width: 200px;
+    display: block;
+    font-size: 160%;
+}
+
+header:nth-child(1) {
+    background-color: rgb(228, 228, 133);
+}
+
+.good {
+    text-transform: uppercase;
+    color: green;
+}
+
+.bad {
+    text-transform: uppercase;
+    color: red;
+}
+
+li:nth-child(1) {
+    background-color: rgb(165, 235, 133);
+    background-image: url("https://raw.githubusercontent.com/becodeorg/bxl-Johnson-6-30/main/1.The-Field/28-04-2021/progressive-enhancement/bien.png?token=ATWSH3VDLUZXD7JKELOHAYLASPTXC");
+    background-size: 1em;
+    background-repeat: no-repeat;
+    background-position-x: 0%;
+    padding-left: 30px;
+}
+li:nth-child(2) {
+    background-color: red;
+    background-image: url("https://raw.githubusercontent.com/becodeorg/bxl-Johnson-6-30/main/1.The-Field/28-04-2021/progressive-enhancement/mal.png?token=ATWSH3TWS2CNCDZ3SYOQCLLASPVJ4");
+    background-size: 1em;
+    background-repeat: no-repeat;
+    background-position-x: 0%;
+    padding-left: 30px;
+}
+li:nth-child(3) {
+    background-color: rgb(85, 80, 80);
+    background-image: url("https://raw.githubusercontent.com/becodeorg/bxl-Johnson-6-30/main/1.The-Field/28-04-2021/progressive-enhancement/chat.png?token=ATWSH3UQ2SC5N2VBXK5SYKLASPV2W");
+    background-size: 1em;
+    background-repeat: no-repeat;
+    background-position-x: 0%;
+    padding-left: 30px;
+}
+li:nth-child(4) {
+    background-color: rgb(63, 58, 58);
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+/*.box3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}*/
+
+.notification {
+    background: #ffffdd;
+    padding: 0.5rem 1rem;
+    border: 3px solid #ddddcc;
+    width: 250px;
+    font-weight: bold;
+    color: #333300;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+}
